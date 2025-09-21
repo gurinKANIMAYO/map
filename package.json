@@ -1,0 +1,13 @@
+{
+  "name": "reverse-proxy-server",
+  "version": "1.0.0",
+  "description": "Reverse proxy to kanimayo.f5.si",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
